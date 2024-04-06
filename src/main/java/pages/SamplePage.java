@@ -1,7 +1,8 @@
 package pages;
 
-public class SamplePage extends BasePage {
+import org.openqa.selenium.WebDriver;
 
+public class SamplePage extends BasePage {
 
 
 }

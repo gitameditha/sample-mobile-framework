@@ -6,7 +6,7 @@ public class SampleTest extends BaseTest {
 
     @Test(description = "Sample description")
     public void sampleTest() {
-
+//        home().navigateToHomepage();
     }
 
 }

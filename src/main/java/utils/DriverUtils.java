@@ -11,9 +11,9 @@ public class DriverUtils {
 
     public static void initializeDriver() {
         DesiredCapabilities capabilities = new DesiredCapabilities();
-        capabilities.setCapability("app", System.getProperty("user.dir") + "/src/apps/android/androidAPP.apk");
+        capabilities.setCapability("app", System.getProperty("user.dir") + "/src/apps/android/v8.7.1_release.apk");
         capabilities.setCapability("platformName", "Android");
-        capabilities.setCapability("deviceName", "Pixel3A");
+        capabilities.setCapability("deviceName", "androidPixel");
         capabilities.setCapability("automationName", "UiAutomator2");
 
         try {
