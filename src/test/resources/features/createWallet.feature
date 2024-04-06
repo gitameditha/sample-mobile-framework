@@ -82,3 +82,4 @@ Feature: Create Wallet
     Then Wallet creation is success
     And user redirect to home page
     And user should be able to see Welcome aboard modal
+    
